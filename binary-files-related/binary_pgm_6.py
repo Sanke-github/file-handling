@@ -1,7 +1,7 @@
 '''write a function to search and display details of all trains, whose destination is "delhi" from a binary 
 'TRAIN.DAT'. Assuming the binary file is containing the objects in the following format : 
 Train = {'Tno':____,'from':_____,'to':______}
-'''
+ '''
 import pickle
 def create():
     file = open('TRAIN.dat','ab')
