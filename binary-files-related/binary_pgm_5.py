@@ -1,7 +1,7 @@
 #A binary file “discovery.dat” has a structure:
 #[scien_name,discovery,yearofDiscovery,yearofbirth]
 #Write a function display(scien_name) in python that accepts the name of a scientist as scientist_name and
-#returns the discovery with the year of discovery
+# returns the discovery with the year of discovery
 
 import pickle
 def display():
