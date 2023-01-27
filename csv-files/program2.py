@@ -19,8 +19,6 @@ def create():
 
 def display_old():
     file =  open("employees.csv", "r") 
-    new_file = open('results.csv','r')
-    new_reader = csv.reader(new_file)
     reader = csv.reader(file)
     print("the old file is :")
     for row in reader:
