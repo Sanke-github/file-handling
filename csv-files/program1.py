@@ -7,7 +7,7 @@ display() - to dispay the old and new records '''
 import csv
 def create():
     # open file to write in
-    file = open('Student.csv','w')
+    file = open('Student.csv','a')
     writer = csv.writer(file) 
     writer.writerow(['Rollno','Name','Subjects','fees'])
     ans = 'y'
