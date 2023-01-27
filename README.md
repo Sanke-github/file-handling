@@ -1,1 +1,2 @@
-for all the programs, DO NOT SAVE IT IN DOWNLOADS, CREATE ANOTHER FOLDER SO THAT PYTHON CAN COMMIT CHANGES IN THE SAME DIRECTORY
+for all the programs, DO NOT SAVE IT IN DOWNLOADS, create another folder so that python can commit changes in the same directory
+
