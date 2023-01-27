@@ -1,3 +1,8 @@
+'''Write a program to create binary file Items.dat to store some details of items such as [itemno,name,price,category]
+   write a program to append some records to the binary file  items.dat, created in the previous program
+   write a program to modify the price the price of an item in the binary file Items.dat.Get the itemno of the item to be modified from the user
+ '''
+
 import pickle
 
 def create():
