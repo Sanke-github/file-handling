@@ -1,7 +1,8 @@
 ''' A list Customer contains n number of records in the format [Customer_name,Phone_number,City]
 Write a Menu driven pgm that defines and calls the following user defined functions to perform given operations on stack named Stack:
 (i) Push_element()- To push an object containing name and Phone number of customers who live in Goa into stack
-(ii)Pop_element()- To pop objects from the stack and display them. Display "Stack Empty" when there are no element in stack'''
+(ii)Pop_element()- To pop objects from the stack and display them. Display "Stack Empty" when there are no element in stack
+'''
 
 Customer=[]
 Stack=[]
