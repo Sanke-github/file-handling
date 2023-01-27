@@ -12,7 +12,7 @@ def create():
     ans = 'y'
     while ans == 'y':
         name = input('enter name : ')
-        mobile_no = int(input('enter mobile number : '))
+        mobile_no = input('enter mobile number : ')
         phonebook[mobile_no] = name
         ans = input('more records? [y/n]: ')
     print(f'dictionary is: \n{phonebook}')
@@ -23,7 +23,7 @@ def push():
     empty = True
     dict = create()
     for i in dict.keys():
-        if i[-1] > 5:
+        if int(i[-1]) > 5:
             stk.append(i)
             empty = False
     print(f'Stack elements after push operation : \n{stk}')
