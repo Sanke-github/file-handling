@@ -1,0 +1,117 @@
+Q1. Write a Program in Python that defines and calls the following user defined functions:
+ADD() – To accept and add data of a teacher to a CSV file ‘teacher.csv’. Each record consists of a list with field elements
+as tid, name and mobile to store teacher id, teacher name and teacher mobile number respectively.
+COUNT() – To count the number of records present in the CSV file named ‘teacher.csv’.
+
+
+Q2. Write a Program in Python that defines and calls the following user defined functions:
+(i) ADDPROD() – To accept and add data of a product to a CSV file ‘product.csv’. Each record consists of a list with field
+elements as prodid, name and price to store product id, employee name and product price respectively.
+(ii) COUNTPROD() – To count the number of records present in the CSV file named ‘product.csv’.
+
+
+Q3. Rohan is making a software on "Countries & their Capitals" in which various records are to be stored/retrieved in
+CAPITAL.CSV data file. It consists some records(Country & Capital). Help him to define and call the following user
+defined functions:
+(i) AddNewRec(Country, Capital) - To accept and add the records to a CSV file "CAPITAL.CSV". Each record consists of
+a list with field elements as Country and Capital to store country name and capital name respectively.
+(ii) ShowRec0 - To display all the records present in the CSV file named “CAPITAL.CSV”.
+
+
+
+Q4. The scores and ranks of three students of a school level programming competition is given as:
+[Name, Marks, 'Rank']
+['Sheela', 450, 1]
+['Rohan', 300, 2]
+['Akash', 260, 3]
+Write a program to do the following:
+(i) Create a csv file (results.csv) and write the above data into it.
+(ii) To display all the records present in the CSV file named 'results.csv'.
+
+
+
+Q5. Write a Program in Python that defines and calls the following user defined functions:
+(i) add() – To accept and add data of an employee to a CSV file ‘employee.csv’. Each record consists of a list with field
+elements as eid, name and salary to store employee id, employee name and employee salary respectively.
+(ii) search()- To display the records of the employee whose salary is more than 40000.
+
+
+
+Q6. Write a Program in Python that defines and calls the following user defined functions:
+(i) add() – To accept and add data of an employee to a CSV file ‘furdata.csv’. Each record consists of a list with field
+elements as fid, fname and fprice to store furniture id, furniture name and furniture price respectively.
+(ii) search()- To display the records of the furniture whose price is more than 10000.
+
+
+
+Q7. Write a Program in Python that defines and calls the following user defined functions:
+(i) add() – To accept and add data of an employee to a CSV file ‘furdata.csv’. Each record consists of a list with field
+elements as fid, fname and fprice to store furniture id, furniture name and furniture price respectively.
+(ii) search()- To display the records of the furniture whose price is less than 50000.
+
+
+
+Q8. Give any one point of difference between a binary file and a csv file. Write a Program in Python that defines and calls
+the following user defined functions:
+(i) add() – To accept and add data of a student to a CSV file ‘stud.csv’. Each record consists of a list with field elements as
+admno, sname and per to store admission number, student name and percentage marks respectively.
+(ii) search()- To display the records of the students whose percentage is more than 75.
+
+
+
+Q9. Write a Program in Python that defines and calls the following user defined functions:
+(i) InsertRow() – To accept and insert data of a student to a CSV file ‘class.csv’. Each record consists of a list with field
+elements as rollno, name and marks to store roll number, student’s name and marks respectively.
+(ii) COUNTD() – To count and return the number of students who scored marks greater than 75 in the CSV file named
+‘class.csv’.
+
+
+
+Q10. Dhirendra is a programmer, who has recently been given a task to write a python code to perform the following CSV
+file operations with the help of two user defined functions/modules:
+(i) CSVOpen() – To create a CSV file called BOOKS.CSV in append mode containing information of books: Title, Author
+and Price.
+(ii) CSVRead() – To display the records from the CSV file called BOOKS.CSV where the Book title starts with 'R'.
+
+
+
+Q11. Write a Program in Python that defines and calls the following user defined functions:
+(i) ADD() – To accept and add data of an item to a CSV file ‘events.csv’. Each record consists of Event_id, Description,
+Venue, Guests, and Cost.
+(ii) COUNTR() – To read the data from the file events.csv, calculate and display the average number of guests and average
+cost.
+
+
+
+Q12. Write a Program in Python that defines and calls the following user defined functions:
+(i) ADD() – To accept and add data of an item to a CSV file ‘furniture.csv’. Each record consists of Fur_id, Description,
+Price, and Discount.
+(ii) COUNTR() – To count the number of records present in ‘furniture.csv’ whose price (that is to be paid after discount ) is
+less than 5000.
+
+
+
+Q13. Write a Menu Driven Program that defines and calls the following user defined functions:
+(i) create(): To accept and add data of an event to a CSV file ‘Events.csv’. Each record consists of Event_id, Venue,
+Guests, and Cost to store event id, venue, number of guests, total cost of the event respectively.
+(ii) find()- To find the record of the event(s) whose average cost (Cost/ Guests) is more than 1000 and add it in the
+‘Accounts.csv’ file.
+(iii) show(): To display the content of both the files ‘Events.csv’ and ‘Accounts.csv’.
+
+
+
+Q14. Write a Menu Driven Program that defines and calls the following user defined functions:
+(i) add(): To accept and add data of the furniture items to a CSV ‘Furdata.csv’. Each record consists of fid, fname and
+fprice to store furniture id, furniture name and furniture price respectively.
+(ii) search()- To find the record of the furniture item(s) whose price is in the range 70000 – 100000 and add it in the
+‘Furniture.csv’ file. Also print the total number of items having price in the above given range.
+(iii) display(): To display the content of both the files ‘Furdata.csv’ and ‘Furniture.csv’.
+
+
+
+Q15. Write a Menu Driven Program that defines and calls the following user defined functions:
+(i) Create(): To accept and add data of an event to a CSV file ‘Student.csv’. Each record consists of Rollno, Name,
+Subjects, and Fees to store roll number, name, number of subjects opted, total fee respectively.
+(ii) Search()- To find the record of the Student(s) whose average fee per subject is in the range 20000 to 40000 and add it
+in the ‘Final.csv’ file. Also print the total number of students that satisfies the above condition.
+(iii) Display(): To display the content of both the files ‘Student.csv’ and ‘Final.csv’
