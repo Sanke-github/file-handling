@@ -15,7 +15,7 @@ import csv
 def add():
     file = open('stud.csv','w')
     writer = csv.writer(file)
-    writer.writerow(['f_id','f_name','fprice'])
+    writer.writerow(['student_id','student_name','percentage'])
     ans = 'y'
     list = []
     while ans == 'y':
