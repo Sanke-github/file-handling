@@ -1,0 +1,50 @@
+1. A binary file data.dat needs to be created  with data written it in the form of Dictionaries.
+
+Write the following functions in python to accommodate the data and manipulate it. 
+a) A function insert() that creates the data.dat file in your system and writes the three dictionaries. 
+b) A function read() that reads the data from the binary file and displays the dictionaries whose age is 16.
+
+2. Write a Program in Python that defines and calls the following user defined functions:
+INSERT() – To create the “data.dat” file in your system and add the student’s Roll number, Name and Age in it. 
+READ() – To search and display the data of the students whose age is above 16.
+
+3. A binary file “Book.dat” has structure [BookNo, Book_Name, Author, Price]. 
+Write a Program in Python that defines and calls the following user defined functions: 
+(i) CreateFile() – To input data of books and add to ‘Book.dat’. 
+(ii) CountRec(Author) – To accept the Author name as parameter. Count and return number of books by the given Author that are stored in the binary file “Book.dat”.
+
+4. A binary file “STUDENT.DAT” has structure (admission_number, Name, Percentage). 
+Write a function countrec() in Python that would read contents of the file “STUDENT.DAT” and display the details of 
+those students whose percentage is above 75. Also display number of students scoring above 75%.
+
+5. Write a Program in Python that defines and calls the following user defined functions: 
+(i) ADD() – To accept and add data of an item to a binary file ‘events.dat’. Each record of the file 
+    is a list [Event_id, Description, Venue, Guests, Cost]. Event_Id, Description, and venue are of str type, 
+    Guests and Cost are of int type. /;
+(ii) COUNTR() – To read the data from the file events.dat, calculate and display the average number of
+     guests and average cost
+
+6. Write a Python program to search the details of the employees (name, designation and salary) whose 
+   salary is greater than 5000. The records are stored in the file ‘emp.dat’.
+   Consider each record in the file ‘emp.dat’ as a list containing name, designation and salary.
+
+7. Write a Program in Python that defines and calls the following user defined functions: 
+(i) ADD() – To accept and add data of an item to a binary file ‘furniture.dat’. Each record of the file is 
+    a list [Fur_id, Description, Price, and Discount]. 
+(ii) COUNTR() – To count the number of records present in ‘furniture.dat’ whose price 
+    (that is to be paid after discount) is less than 5000.
+
+8. Write a Menu Driven Program that defines and calls the following user defined functions:
+(i) add(): To accept and add data of the furniture items to a Binary file ‘Furdata.dat’. Each record consists of fid, fname and fprice to store furniture id, furniture name and furniture price respectively. 
+(ii) search()- To find the record of the furniture item(s) whose price is more than 10000 and update the price by 5%. Also print the total number of items having price more than 10000.
+(iii) display(): To display the content of the file after updation.
+
+9. Write a Menu Driven Program that defines and calls the following user defined functions:
+(i) create(): To accept and add data of an event to a binary file ‘Events.dat’. Each record consists of Event_id, Venue, Guests, and Cost to store event id, venue, number of guests, total cost of the event respectively.
+(ii) find()- To find the record of the event(s) whose cost is more than 50000 and update the cost after giving discount of 3%. 
+(iii) show(): To display the content of the file after updation.
+
+10. Write a Menu Driven Program that defines and calls the following user defined functions:
+(i) add(): To accept and add data of the furniture items to a Binary file ‘Student.dat’. Each record consists of sid, sname, percentage and fees to store student id, student name, student percentage and total fee respectively. 
+(ii) search()- To find the record of the student(s) whose percentage is more than 90 and update their fees after giving 3% concession. Also print the total number of students that fulfils the above criterion.
+(iii) display(): To display the content of the file after updation.
